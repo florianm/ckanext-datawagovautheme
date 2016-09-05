@@ -241,3 +241,11 @@ body {
 #debug-toggle {
  color: rgb(200, 200, 200);
 }
+
+/* Fix wrapping of label in list on resource page */
+.nav-item > a span {
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
